@@ -41,6 +41,7 @@ body {
 	flex-wrap: wrap;
 	align-content: space-around;
 	justify-content: space-around;
+    box-shadow: 6px 6px 0px;
 }
 
 .photo {
@@ -117,6 +118,7 @@ body {
 @media (max-width: 375px) {
     .card {
         width: 327px;
+        /* box-shadow: 6px 6px 0px; */
     }
 
     .photo {
